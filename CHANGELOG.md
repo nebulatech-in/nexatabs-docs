@@ -5,7 +5,7 @@ What changed in each public release of NexaTabs, written for users. NexaTabs sup
 ## 1.0.2
 
 **Chrome Web Store:** live from 22 October 2026.
-**Edge Add-ons:** still on 1.0.1 for now.
+**Edge Add-ons:** live from 29 October 2026.
 
 ### New
 
