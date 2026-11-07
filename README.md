@@ -16,7 +16,7 @@ NexaTabs supports Chrome and Edge. Both use the same NexaTabs build. NexaTabs is
 
 - **Workspaces:** Save a full set of tabs as a named workspace and switch projects in one click or with Alt+Q, without rebuilding your session. Switching restores saved URLs; unsaved in-page form data is not kept.
 - **Save and Close:** Save a workspace's open tabs and close them in one action. Stash moves loose tabs (not grouped, not pinned) into a workspace; it asks first and closes only what it saved.
-- **Accounts (same site · multiple logins):** Separate cookie jars let you stay signed in to more than one account on the same site in one browser. Site support varies, and it is not a replacement for separate operating system profiles when you need hard separation.
+- **Accounts (same site · multiple logins, experimental):** Separate cookie jars let you stay signed in to more than one account on the same site in one browser. Accounts is experimental: site support varies, some sites may block or detect multiple logins, and it is not a replacement for separate operating system profiles when you need hard separation.
 - **Notes and Quick Note:** Plain-text notes for each workspace, plus a floating Quick Note for prompts and reminders.
 - **Workspace Bookmarks:** Keep a per-workspace list of reference links without keeping those tabs open.
 - **Import Wizard (beta):** Bring in Chrome tab groups, browser bookmarks, URL lists, or exports from other tab tools. It adds to what you have and does not replace your existing workspaces.
@@ -25,9 +25,9 @@ NexaTabs supports Chrome and Edge. Both use the same NexaTabs build. NexaTabs is
 - **Open alongside:** Open a saved workspace next to what is already open, without clearing the current window.
 - **Pin and protect:** Pin key workspaces and turn on protection so they are harder to rename or delete by accident.
 - **Auto-organize:** Optional suggestions that group open tabs into workspaces such as AI, work, personal or lifestyle. Suggestions are optional and may not match every browsing pattern.
-- **Context menus:** Right-click a page or the toolbar icon to add the tab to a workspace, or right-click a link to save it as a workspace bookmark.
+- **Context menus:** Right-click a page or the toolbar icon and choose Save page to NexaTabs workspace (the page stays open), or right-click a link and choose Bookmark link to workspace.
 - **Add URLs by paste:** Paste a list of links into a workspace; duplicates are skipped.
-- **Zen Mode:** A calmer dashboard with optional scenic or custom wallpapers. It changes the look only; your workspaces stay as they are.
+- **Zen Mode:** A calmer dashboard of glass workspace cards over an optional scenic or custom wallpaper. The cards adjust to light or dark photos, and you can click a card to open its workspace. It changes the look only; your workspaces stay as they are.
 - **Accessibility:** Keyboard-friendly flows, larger click targets, and support for your system's reduced-motion and contrast settings.
 - **Languages:** English, French, German and Spanish (Latin America).
 

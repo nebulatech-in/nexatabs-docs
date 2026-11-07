@@ -1,6 +1,6 @@
 # NexaTabs permissions and privacy
 
-This page explains, in plain words, what each NexaTabs permission is used for and how NexaTabs loads website icons. It applies to NexaTabs 1.0.2 on Chrome and Edge. For the full legal text, read the [NexaTabs Privacy Policy](https://www.nexatabs.com/privacy-policy).
+This page explains, in plain words, what each NexaTabs permission is used for and how NexaTabs loads website icons. It applies to NexaTabs 1.0.3 on Chrome and Edge. For the full legal text, read the [NexaTabs Privacy Policy](https://www.nexatabs.com/privacy-policy).
 
 ## Where your data lives
 
@@ -13,7 +13,7 @@ This page explains, in plain words, what each NexaTabs permission is used for an
 
 ## Permissions
 
-NexaTabs uses Manifest V3. These are the permissions listed in the 1.0.2 manifest and what each one is for.
+NexaTabs uses Manifest V3. These are the permissions listed in the 1.0.3 manifest and what each one is for. NexaTabs 1.0.3 adds no new permissions.
 
 | Permission | What NexaTabs uses it for |
 |---|---|
@@ -26,7 +26,7 @@ NexaTabs uses Manifest V3. These are the permissions listed in the 1.0.2 manifes
 | `notifications` | Show a short confirmation after you add a tab to a workspace from the right-click menu, or tell you the tab is already there. |
 | `declarativeNetRequest` | Accounts (same site · multiple logins): attach the right sign-in cookies to each Accounts tab so different logins on the same site stay apart. |
 | `webRequest` | Accounts (same site · multiple logins): see the cookies a site sets in an Accounts tab so they can be kept with that login. |
-| `favicon` (new in 1.0.2) | Read website icons from the browser's own local icon cache, so saved tabs show the right icon. This permission is read-only. |
+| `favicon` (added in 1.0.2) | Read website icons from the browser's own local icon cache, so saved tabs show the right icon. This permission is read-only. |
 
 ### Site access (host permissions)
 
@@ -75,6 +75,12 @@ This setting covers icons inside NexaTabs only. It does not make the websites yo
 ## Optional wallpapers
 
 Zen Mode can show an optional wallpaper on the dashboard. As the Privacy Policy explains, if you choose a remote wallpaper, the image is loaded from Unsplash. The default gradient wallpaper needs no download.
+
+With a wallpaper on, NexaTabs works out the photo's average brightness so the workspace cards stay readable. This happens on your device, and the photo is not sent anywhere.
+
+## Review request
+
+Once, after a few days of use, the popup may ask whether you would like to rate NexaTabs. NexaTabs keeps a small local counter (how many times you switched or saved a workspace, and whether you answered) to decide when to ask. Nothing is sent anywhere. Only if you click Rate NexaTabs does it open the extension's page on the Chrome Web Store or Edge Add-ons.
 
 ## Questions
 

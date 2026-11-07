@@ -2,6 +2,42 @@
 
 What changed in each public release of NexaTabs, written for users. NexaTabs supports Chrome and Edge, and both use the same build.
 
+## 1.0.3
+
+**Chrome Web Store:** submitted 7 November 2026, in review.
+**Edge Add-ons:** submitted 7 November 2026, in review.
+
+No new permissions.
+
+### New
+
+- **Glass cards in Zen Mode:** Over a wallpaper, workspace cards are frosted glass in a 4-column grid that drops to 3, 2 or 1 column in narrower windows, including with Chrome's vertical tabs. Each card shows the name, then the action buttons, then the tab count and tags.
+- **Cards that match your photo:** Over a dark photo the cards turn smoky grey with light text; over a bright photo they stay light with dark text. NexaTabs checks the photo's brightness once, on your device. To choose for yourself, go to Settings, then Dashboard, then **Card style**, and pick Auto, Light or Dark.
+- **Click a Zen card to open it:** Click anywhere on a card to open that workspace, or to jump to it if it is already open. With the keyboard, Tab to the workspace name and press Enter.
+- **Add current tab from a dashboard card:** Cards have a plus button that adds your most recent tab to that workspace. Its tooltip names the tab and its site.
+- **A one-time request for a review:** After a few days of use, the popup asks once whether you would like to rate NexaTabs. Rate NexaTabs opens the store page; Not now ends it. If you ignore it, it stops after three popups and does not come back. Nothing is sent anywhere.
+
+### Improved
+
+- **Workspace order:** In the dashboard and the popup, the workspace you are in comes first, then other open workspaces, then pinned ones, then the rest by most recently used.
+- **Wallpaper visibility** is now a slider from "More photo" to "Easier to read", with a live preview. Your earlier setting carries over.
+- **Default background:** A new quiet blue and violet gradient, with light and dark versions.
+- **Saved workspaces** show a neutral grey ring instead of a coloured one, so a red workspace no longer looks like an error. Open workspaces keep the green dot.
+- **Create tile:** The "Create a new workspace" tile is a clear dashed button with readable text.
+- **Right-click menu:** The item is now called **Save page to NexaTabs workspace**. The page stays open.
+- **Bookmark import (beta):** Folders with more than 100 links are split into several workspaces, such as Folder (1) and Folder (2). Links already in NexaTabs are skipped.
+- **Appearance settings:** Long image names are shortened, and Choose image and Remove image are clear buttons.
+
+### Fixed
+
+- **Duplicate workspace names** are now blocked when you create or rename a workspace. Two workspaces with the same name could make Switch or Save and Close act on the wrong one.
+- **Esc in Zen Mode** closes the innermost open item first, such as a card menu, rename or a text field, and exits Zen only when nothing is open.
+- In Zen Mode, a card's menu no longer opens underneath the next row of cards, and the ⋯ button no longer spills past the card edge at mid widths.
+- Zen Mode fills narrow windows instead of shrinking to one column.
+- Dashboard search no longer shows duplicate cards while you type quickly.
+- Bookmark import no longer drops links after the first 100 in a folder.
+- Right-click menu titles and notifications are now translated.
+
 ## 1.0.2
 
 **Chrome Web Store:** live from 22 October 2026.
